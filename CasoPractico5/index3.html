@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar Imagen Random</title>
+</head>
+<style>
+    body{
+        font-family: Verdana, Tahoma, sans-serif;
+        margin: auto;
+        width: 640px; 
+        padding: 50px;
+        background-color: #212F3C;
+    }
+    img{
+        display: block;
+        padding: 30px;
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .boton{
+        padding: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    button{
+        color: azure;
+        background: transparent;
+        border: 2px solid azure;
+        border-radius: 6px;
+    }
+    button:hover{
+        background-color: #34495E;
+        color: white;
+    }
+    .contenido{
+        background-color: #A04000;
+    }
+    .titulo{
+        text-align: center;
+        color: azure;
+    }
+</style>
+<body>
+    <div class="titulo">
+        <h1>Generar Imágenes Aleatorias de Gatos</h1>
+    </div>
+    <div class="contenido">
+        <div id="container3">
+            <script src="index3.js" type="module"></script>
+        </div>
+        <div class="boton">
+            <button onClick="window.location.reload();" id="button">Generar Otra Imagen</button>
+        </div>
+    </div>
+</body>
+</html>
